@@ -1,0 +1,7 @@
+name: 'Layout builder admin theme'
+type: module
+description: 'Makes your Drupal site use the admin theme when using "Layout builder".'
+core: 8.x
+package: Layout
+dependencies:
+  - drupal:layout_builder
