@@ -50,16 +50,10 @@ class LBATAdminNegotiator implements ThemeNegotiatorInterface {
       return FALSE;
     }
 
-    // If the form is one of these - apply the admin theme.
-    $layout_forms = [
-      // Standard Layout builder entity form.
-      'entity_view_display.layout_builder',
-      // Layout builder library form.
-      // @see https://www.drupal.org/project/layout_library.
-      'layout.layout_builder',
-    ];
-
-    if (in_array($form, $layout_forms)) {
+    // If form ends with ".layout_builder" apply the admin theme.
+    $form_types = explode('.', $form);
+    $form_type = end($form_types);
+    if (!empty($form_type) && $form_type === 'layout_builder') {
       return TRUE;
     }
 

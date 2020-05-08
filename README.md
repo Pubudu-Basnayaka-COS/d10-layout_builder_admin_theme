@@ -34,8 +34,7 @@ INSTALLATION
 CONFIGURATION
 -------------
 
-This module has no configurable options. After installation, the Layout Builder
-editing interface will use the admin theme.
+Navigate to "/admin/config/content/lbat" to toggle the admin theme.
 
 
 MAINTAINERS
