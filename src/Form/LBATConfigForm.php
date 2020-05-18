@@ -32,6 +32,7 @@ class LBATConfigForm extends ConfigFormBase {
   public function buildForm(array $form, FormStateInterface $form_state) {
     $config = $this->config('layout_builder_admin_theme.config');
 
+    // Checkbox to enable or disable the admin theme for layout builder.
     $form['lbat_enable_admin_theme'] = [
       '#type' => 'checkbox',
       '#title' => $this->t('Enable admin theme for layout builder'),

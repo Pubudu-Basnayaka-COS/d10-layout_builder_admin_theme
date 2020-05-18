@@ -4,5 +4,6 @@ description: 'Makes your Drupal site use the admin theme when using "Layout buil
 core: 8.x
 core_version_requirement: ^8
 package: Layout
+configure: layout_builder_admin_theme.lbat_config_form
 dependencies:
   - drupal:layout_builder
