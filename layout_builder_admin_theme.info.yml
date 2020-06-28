@@ -2,7 +2,7 @@ name: 'Layout builder admin theme'
 type: module
 description: 'Makes your Drupal site use the admin theme when using "Layout builder".'
 core: 8.x
-core_version_requirement: ^8
+core_version_requirement: ^8 || ^9
 package: Layout
 configure: layout_builder_admin_theme.lbat_config_form
 dependencies:
