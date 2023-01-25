@@ -1,0 +1,7 @@
+{
+    "name": "drupal/layout_builder_admin_theme",
+    "type": "drupal-module",
+    "description": "layout_builder_admin_theme module for Drupal.",
+    "homepage": "http://drupal.org/project/disqus",
+    "license": "GPL-2.0-or-later"
+}
